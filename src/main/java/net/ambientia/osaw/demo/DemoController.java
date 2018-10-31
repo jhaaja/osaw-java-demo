@@ -8,6 +8,6 @@ public class DemoController {
 
 @RequestMapping("/")
   public String index() {
-    return "Good morning Kista!";
+    return "<html><head><title>OSAW demo</title></head><body><h1>Good morning Kista!</h1></body></html>";
   }
 }
